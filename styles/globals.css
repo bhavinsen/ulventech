@@ -87,12 +87,6 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 a {
@@ -104,4 +98,43 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.main-form{
+  max-width: 912px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.main-form .title{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.main-form .field-row{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-form .submit-btn{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-form .response-main h4{
+  font-size: 20px;
+  color: #000000de;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.main-form .response-main p{
+  color: #000000de;
+  font-size: 14px;
+  letter-spacing: 0.01071em;
 }
